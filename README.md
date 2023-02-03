@@ -1,7 +1,6 @@
 # Directional Weighted Median Filter for Removal of Random-Valued Impulse Noise
 
-Implementation of paper "A new directional weighted median filter for removal of random-valued impulse noise" by Yiqiu Dong and Shufang Xu
-[1] Y. Dong and S. Xu, “A new directional weighted median filter for removal of random-valued impulse noise,” IEEE signal processing letters, vol. 14, no. 3, pp. 193–196, 2007.
+Implementation of paper "A new directional weighted median filter for removal of random-valued impulse noise" by Yiqiu Dong and Shufang Xu [1]
 
 ## Summary
 
@@ -31,3 +30,7 @@ Keywords: Image denoising, impulse detector, random valued impulse noise
 10. Replace the noisy pixel with this median value
 11. Repeat the process (step 2-9) for 5-10 times for more smoother image.
 12. Reduce Treshold value by .80 on each iteration.
+
+## References:
+[1] : Y. Dong and S. Xu, “A new directional weighted median filter for removal of random-valued impulse noise,” IEEE signal processing letters, vol. 14, no. 3, pp. 193–196, 2007.
+
