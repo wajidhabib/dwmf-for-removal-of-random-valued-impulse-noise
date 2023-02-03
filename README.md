@@ -31,6 +31,15 @@ Keywords: Image denoising, impulse detector, random valued impulse noise
 11. Repeat the process (step 2-9) for 5-10 times for more smoother image.
 12. Reduce Treshold value by .80 on each iteration.
 
+## Requirements:
+### Tools:
+Google Colab Or Visual Studio Code
+### Languages & Libraries
+1. Paython 3.10
+2. OpenCV
+3. NumPy
+4. matplotlib
+
 ## References:
 [1] : Y. Dong and S. Xu, “A new directional weighted median filter for removal of random-valued impulse noise,” IEEE signal processing letters, vol. 14, no. 3, pp. 193–196, 2007.
 
